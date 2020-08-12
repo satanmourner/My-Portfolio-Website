@@ -50,6 +50,21 @@ div.main-side {
   margin-top: 10px;
 }
 
+div.main-content > h3 {
+  text-align: left;
+}
+
+div.main-content > h4 {
+  text-align: left;
+  color: gray;
+  padding: 0px 0px 20px 0px;
+  font-weight: normal;
+}
+
+div.main-content > p {
+  text-align: justify;
+}
+
 div.arrow-container {
   position: absolute;
   top: 0;

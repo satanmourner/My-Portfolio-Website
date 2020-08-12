@@ -17,8 +17,8 @@ export default class About extends React.Component {
               </svg>
             </div>
             <h3>web development</h3>
-            <p>i have experience building websites and chrome extentions 
-              using JavaScript, React, HTML, CSS
+            <p>i have experience building websites  
+              using JavaScript, React, jQuery, HTML, CSS.
             </p>
           </div>
           <div className="content" style={{alignSelf: 'flex-end'}}>
@@ -33,7 +33,7 @@ export default class About extends React.Component {
             </div>
             <h3>IOT</h3>
             <p>i have experience low-level programming with c 
-              and arduino microcontroller
+              and arduino microcontroller.
             </p>
           </div>
           <div className="content" style={{alignSelf: 'center'}}>
@@ -47,8 +47,8 @@ export default class About extends React.Component {
               </svg>
             </div>
             <h3>programming language</h3>
-            <p>i love low-level programming language like c but i have
-              experience in golang and python for some small projects
+            <p>i like low-level programming languages such as C but i have
+              experience in golang and python for some small projects in university.
             </p>
           </div>
         </div>
