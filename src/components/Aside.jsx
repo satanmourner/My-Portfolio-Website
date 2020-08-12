@@ -5,7 +5,7 @@ export default class Aside extends React.Component {
     return (
       <aside>
         <div className="aside-container">
-          <img className="profile-img" src="./Images/profile.jpg" />
+          <img className="profile-img" src={process.env.PUBLIC_URL + '/Images/profile.jpg'} />
           <h2>Sanaz Mahmoudi</h2>
           <div className="email">
             <i className="far fa-envelope" />
