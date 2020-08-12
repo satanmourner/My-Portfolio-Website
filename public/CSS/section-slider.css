@@ -17,6 +17,7 @@ img.slide-img {
 }
 
 div.slides {
+  width: 40%;
   height: 100%;
   position: absolute;
   z-index: 1;
@@ -34,6 +35,7 @@ div.container-slide {
 div.container-slide > h1 {
   font-size: 60px;
   opacity: 0.5;
+  padding: 20px 0px;
   text-transform: capitalize;
 }
 

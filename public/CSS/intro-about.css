@@ -5,11 +5,22 @@ div.intro, div.about, div.timeline {
   flex-direction: column;
 }
 
-div.intro > h2, div.about > h2, div.timeline > h2 {
+div.intro > h2, div.timeline > h2 {
   text-transform: uppercase;
   letter-spacing: 5px;
   word-spacing: 2.5px;
   padding: 50px 0;
+}
+
+div.about > h2 {
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  word-spacing: 2.5px;
+  padding: 100px 0px;
+}
+
+div.about h3 {
+  padding: 40px 0px 0px 0px;
 }
 
 div.intro-container > p {
