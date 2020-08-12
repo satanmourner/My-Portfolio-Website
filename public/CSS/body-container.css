@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  outline: none;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  background-color: rgb(43, 42, 42);
+  color: white;
+  height: 100%;
+  font-family: 'Source Sans Pro';
+}
+
+a::first-letter, p::first-letter, span::first-letter {
+  text-transform: capitalize;
+}
+
+body::-webkit-scrollbar {
+  width: 15px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-image: linear-gradient(to bottom, rgb(122, 88, 129), rgb(209, 186, 214), rgb(122, 88, 129));
+}
+
+body::-webkit-scrollbar-track {
+  background-color: rgb(54, 54, 54);
+}
+
+div.container {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+}
