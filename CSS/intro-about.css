@@ -1,11 +1,20 @@
-div.intro, div.about, div.timeline {
+div.about, div.timeline {
   width: 100%;
   padding: 50px 20px;
   display: flex;
   flex-direction: column;
 }
 
-div.intro > h2, div.timeline > h2 {
+div.intro {
+  width: 100%;
+  padding: 50px 20px;
+  display: flex;
+  flex-direction: column;
+  transform: translateX(-20px);
+  transition: .5s ease-out;
+}
+
+div.intro > h2 {
   text-transform: uppercase;
   letter-spacing: 5px;
   word-spacing: 2.5px;
@@ -17,6 +26,8 @@ div.about > h2 {
   letter-spacing: 5px;
   word-spacing: 2.5px;
   padding: 100px 0px;
+  transform: translateX(-20px);
+  transition: .5s ease-out;
 }
 
 div.about h3 {
@@ -48,6 +59,9 @@ div.content {
   border-bottom: 2px solid rgb(122, 88, 129);
   box-shadow: 5px 5px 30px 10px rgb(32, 32, 32);
   position: relative;
+  transform: translateY(100px);
+  opacity: 0.1;
+  transition: .65s ease-in;
 }
 
 div.logo-content {
