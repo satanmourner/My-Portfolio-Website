@@ -1,11 +1,11 @@
 section {
-  width: 80%;
+  flex: 80%;
   display: flex;
   flex-direction: column;
 }
 
 div.slider {
-  width: 100%;
+  flex: 100%;
   position: relative;
   display: flex;
   justify-content: flex-start;
@@ -17,7 +17,7 @@ img.slide-img {
 }
 
 div.slides {
-  width: 40%;
+  flex: 40%;
   height: 100%;
   position: absolute;
   z-index: 1;
@@ -30,6 +30,8 @@ div.container-slide {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  transform: translateY(100px);
+  transition: .5s linear;
 }
 
 div.container-slide > h1 {
@@ -39,6 +41,11 @@ div.container-slide > h1 {
   text-transform: capitalize;
 }
 
+.container-slide > a {
+  flex: 40%;
+  text-decoration: none;
+}
+
 button.btn-slide {
   border: 1px solid gray;
   border-radius: 5px;
@@ -46,6 +53,9 @@ button.btn-slide {
   background-color: transparent;
   padding: 10px 15px;
   font-size: 16px;
+  flex: 100%;
+  display: flex;
+  justify-content: space-around;
   cursor: pointer;
 }
 
@@ -64,4 +74,6 @@ div.dot-slide > i {
   font-size: 14px;
   margin: 2.5px 0;
   color: rgb(48, 25, 53);
+  border: 3px solid rgb(48, 25, 53);
+  border-radius: 100px;
 }

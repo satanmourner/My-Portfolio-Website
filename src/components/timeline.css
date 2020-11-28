@@ -23,7 +23,7 @@ div.timeline  > h2 {
 }
 
 div.left-side {
-  width: 10%;
+  flex: 10%;
   text-align: center;
   position: relative;
 }
@@ -59,7 +59,7 @@ div.logo-timeline > i {
 }
 
 div.main-side {
-  width: 90%;
+  flex: 90%;
   padding: 25px;
   text-align: center;
   box-shadow: 5px 5px 30px 10px rgb(32, 32, 32);

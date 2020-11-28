@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
 import './section-slider.css';
 
-var slideIndex = 1;
-
 export default class Slider extends React.Component {
   constructor(props) {
     super(props);
@@ -16,7 +14,7 @@ export default class Slider extends React.Component {
       slide[i].dis = false;
       if(event.target === this.refSlide[i]) {
        slide[i].dis = true;
-       this.setState({show: this.state.show.concat(slide[i].dis)})
+         this.setState({})
       }
     }
   }
@@ -51,7 +49,7 @@ const slide = [
     dis: true,
     h1: <h1>Hi! <br /> i'm Sanaz</h1>, 
     href: "https://docs.google.com/document/d/1sI9rfUIGP4uDuwhj3bFge--Iq4OdHMtgD4lJgey2-BU/edit?usp=sharing",
-    content: "viwe cv",
+    content: "view cv",
     i: "far fa-file-pdf"
   },
   {

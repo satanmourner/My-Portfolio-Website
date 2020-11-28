@@ -1,4 +1,4 @@
-aside {width: 20%;}
+aside {flex: 20%;}
 
 div.aside-container {
   width: 20%;
@@ -44,7 +44,7 @@ div.content-scroll > a::before { /*impo*/
   content: "";
   position: absolute;
   bottom: 0;
-  width: 100%;
+  flex: 100%;
   height: 1px;
   background: rgb(209, 186, 214);
   visibility: hidden;
@@ -79,7 +79,7 @@ div.icons > a {
 div.icons > a::before {
   content: "";
   position: absolute;
-  width: 100%;
+  flex: 100%;
   bottom: 0;
   height: 1px;
   background: rgb(209, 186, 214);
